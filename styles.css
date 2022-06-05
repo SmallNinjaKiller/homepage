@@ -111,7 +111,6 @@ body {
     height: 100%;
     width: 100%;
     opacity: 1;
-}
 
 .border-button:hover:before {
     transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;
@@ -121,6 +120,14 @@ body {
     transition: 0s ease opacity .4s, .2s ease height .4s, .2s ease width .6s;
 }
 
+.border-button:hover:before {
+    transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;
+}
+  
+.border-button:hover:after {
+    transition: 0s ease opacity .4s, .2s ease height .4s, .2s ease width .6s;
+}
+  
 .border-button:hover {
     background: rgba(255, 255, 255, .2);
 }
