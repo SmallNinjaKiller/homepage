@@ -89,6 +89,7 @@ body {
     opacity: 0;
     box-sizing: border-box;
 }
+
 .border-button:before {
     bottom: 0;
     left: 0;
@@ -96,6 +97,7 @@ body {
     border-top: 1px solid white;
     transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
 }
+
 .border-button:after {
     top: 0;
     right: 0;
@@ -103,18 +105,22 @@ body {
     border-bottom: 1px solid white;
     transition: 0s ease opacity .4s, .2s ease width, .2s ease height .2s;
 }
+
 .border-button:hover:before, 
 .border-button:hover:after {
     height: 100%;
     width: 100%;
     opacity: 1;
 }
+
 .border-button:hover:before {
     transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;
 }
+
 .border-button:hover:after {
     transition: 0s ease opacity .4s, .2s ease height .4s, .2s ease width .6s;
 }
+
 .border-button:hover {
     background: rgba(255, 255, 255, .2);
 }
